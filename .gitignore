@@ -1,0 +1,63 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# JavaScript / TypeScript
+node_modules/
+.tanstack/
+.output/
+.wrangler/
+.vite/
+.next/
+.nuxt/
+coverage/
+*.tsbuildinfo
+
+# Local databases and logs
+*.sqlite
+*.sqlite3
+*.db
+*.log
+logs/
+
+# Local editor/system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backups and generated archives
+*.bak
+*.broken_backup
+*.backup_*
+*backup*/
+*Backup*/
+*.zip
+folder_structure*.txt
+
+# Old SitePilot installation packages
+SitePilot_AI_Training_Dataset_V1/
+SitePilot_Intent_Classifier_V2_Upgrade/
+SitePilot_Ticket_Ownership_V9_2/

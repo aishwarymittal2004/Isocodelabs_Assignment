@@ -1,0 +1,138 @@
+{"message": "I want to book a site visit", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Can I visit this Sunday?", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Show available appointments", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Please schedule a property tour", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Can you book 11 am tomorrow", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "I would like to come see the apartment", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "I want to see the flat in person", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Schedule a visit for the weekend", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "साइट विज़िट बुक करनी है", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "मुझे रविवार को फ्लैट देखने आना है", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "મારે સાઇટ વિઝિટ બુક કરવી છે", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "રવિવારે ફ્લેટ જોવા આવવું છે", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Connect me to a salesperson", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Can a human call me?", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "I want to talk with an executive", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Please put me in touch with someone", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Talk to a person please", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Ask the sales team to contact me", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Can I speak to your sales head", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Get me a real agent", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "मुझे किसी सेल्स कर्मचारी से बात करनी है", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "किसी इंसान से बात करवाइए", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "મને સેલ્સ વ્યક્તિ સાથે વાત કરાવો", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "મને માણસ સાથે વાત કરવી છે", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "What is the price of the project?", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "Is there a swimming pool", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "What is the RERA number", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "Is the project in Ahmedabad", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "Which amenities are available?", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "What is the possession date", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "What sizes are available", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "Tell me about the project", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "यह परियोजना कहाँ है", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "कीमत कितनी है", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "આ પ્રોજેક્ટનો ભાવ કેટલો છે", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "પ્રોજેક્ટ ક્યાં આવેલો છે", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "My home loan is pending", "intent": "hesitation", "concern_type": "financing", "synthetic": true}
+{"message": "I am worried about the price", "intent": "hesitation", "concern_type": "budget", "synthetic": true}
+{"message": "This location is too far from my office", "intent": "hesitation", "concern_type": "location", "synthetic": true}
+{"message": "I need my spouse to agree", "intent": "hesitation", "concern_type": "family", "synthetic": true}
+{"message": "I cannot afford this flat", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "I have concerns about the possession timeline", "intent": "hesitation", "concern_type": "timeline", "synthetic": true}
+{"message": "Not sure about the commute", "intent": "hesitation", "concern_type": "commute", "synthetic": true}
+{"message": "My family is not convinced", "intent": "hesitation", "concern_type": "family", "synthetic": true}
+{"message": "लोन अभी मंजूर नहीं हुआ है", "intent": "hesitation", "concern_type": "financing", "synthetic": true}
+{"message": "मुझे बजट की चिंता है", "intent": "hesitation", "concern_type": "budget", "synthetic": true}
+{"message": "લોન હજી મંજૂર નથી", "intent": "hesitation", "concern_type": "financing", "synthetic": true}
+{"message": "આ ઘર મારા બજેટની બહાર છે", "intent": "hesitation", "concern_type": "budget", "synthetic": true}
+{"message": "Hello", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "Hi there", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "Good morning", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "How can you help me?", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "Thanks", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "I am exploring", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "Tell me what you do", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "Can you assist me?", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "नमस्ते", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "धन्यवाद", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "નમસ્તે", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "આભાર", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "asdf qqqzz", "intent": "unknown", "concern_type": "none", "synthetic": true}
+{"message": "random unrelated nonsense", "intent": "unknown", "concern_type": "none", "synthetic": true}
+{"message": "0000000", "intent": "unknown", "concern_type": "none", "synthetic": true}
+{"message": "???", "intent": "unknown", "concern_type": "none", "synthetic": true}
+{"message": "Some unrelated topic", "intent": "unknown", "concern_type": "none", "synthetic": true}
+{"message": "Tell me a joke about planets", "intent": "unknown", "concern_type": "none", "synthetic": true}
+{"message": "Could you arrange an apartment tour", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "I need an appointment to see the flat", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Do you have free viewing times", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Can you show slots for a project visit", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Arrange a weekend walkthrough", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "I would like to book an appointment", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Let us visit the premises", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "What are the visit timings", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Please show me available visiting times", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Are appointment times open today", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Is a site tour possible", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Can I schedule a viewing", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "Tell me a suitable time to visit", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "When can I see the property", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "मुझे फ्लैट दिखाने का समय दीजिए", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "क्या मैं देखने आ सकता हूँ", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "મને મુલાકાતનો સમય આપો", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "ક્યારે પ્રોજેક્ટ જોવા આવી શકું", "intent": "booking", "concern_type": "none", "synthetic": true}
+{"message": "A real person please", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "I need an actual agent", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Get a sales executive", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "I want the sales manager", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Can a representative assist", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Can you connect me to your team", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Call me from sales", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Please arrange a callback", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "मुझे सेल्स मैनेजर चाहिए", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "કોઈ સેલ્સ એક્ઝિક્યુટિવને જોડો", "intent": "human", "concern_type": "none", "synthetic": true}
+{"message": "Is the registration active", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "What is the full project RERA registration", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "Tell me about your possession schedule", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "What is the cost per apartment", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "Can you give project specifications", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "How many bedrooms are there", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "Do units have parking", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "Is there a garden", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "Give me the official registration", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "What is the published price range", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "What is the building height", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "Tell me the location of this project", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "योजना का रेरा नंबर बताइए", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "પ્રોજેક્ટની સુવિધાઓ બતાવો", "intent": "project_facts", "concern_type": "none", "synthetic": true}
+{"message": "The commute from my office worries me", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "I am concerned about travelling daily", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "The distance could be an issue", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "Not certain about the loan", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "I am hesitant due to affordability", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "The price seems beyond my means", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "My partner is not ready to decide", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "We are unsure about the location", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "I have doubts about the developer", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "My salary may not support this", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "I want more time because of finances", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "We are worried about the promised completion date", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "I am concerned about the handover", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "My parents disagree with this", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "मुझे यात्रा समय की चिंता है", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "મને લોન વિશે ચિંતા છે", "intent": "hesitation", "concern_type": "other", "synthetic": true}
+{"message": "Nice", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "Great", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "How are you", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "Thanks for helping", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "Just looking around", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "Hi assistant", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "I am browsing now", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "Ok fine", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "नमस्कार", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "બધું સારું છે", "intent": "general", "concern_type": "none", "synthetic": true}
+{"message": "bananas and rockets", "intent": "unknown", "concern_type": "none", "synthetic": true}
+{"message": "xyz 12345", "intent": "unknown", "concern_type": "none", "synthetic": true}
+{"message": "nonsense gibberish", "intent": "unknown", "concern_type": "none", "synthetic": true}
+{"message": "What is a quantum computer", "intent": "unknown", "concern_type": "none", "synthetic": true}

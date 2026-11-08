@@ -1,0 +1,12 @@
+import {createFileRoute,Link} from '@tanstack/react-router';
+import {useState} from 'react';
+import {PageTitle} from '@/components/ops';
+import {salesApi} from '@/lib/sitepilot-api';
+import {useSalesData,DataState} from '@/lib/use-sales-data';
+export const Route=createFileRoute('/sales/leads/')({component:Leads});
+function Leads(){const[q,setQ]=useState('');const[st,setSt]=useState('All');const {data,error,loading,reload}=useSalesData(salesApi.leads);
+ if(!data)return <DataState loading={loading} error={error} retry={reload}/>;
+ const rows=data.filter(l=>(st==='All'||l.status===st)&&`${l.name} ${l.lead_id} ${l.source}`.toLowerCase().includes(q.toLowerCase()));
+ return <div><PageTitle id="S2" title="Leads"/><div className="mb-4 flex flex-wrap gap-3"><input aria-label="Search leads" placeholder="Search name, ID, source…" value={q} onChange={e=>setQ(e.target.value)} className="h-11 w-full max-w-sm rounded-lg border border-input bg-card px-4 text-sm"/><select aria-label="Lead status" value={st} onChange={e=>setSt(e.target.value)} className="h-11 rounded-lg border border-input bg-card px-3 text-sm">{['All','new','handoff_requested','visit_booked','contacted'].map(x=><option key={x} value={x}>{x==='All'?'All statuses':x.replaceAll('_',' ')}</option>)}</select><button onClick={reload} className="btn btn-ghost">Refresh</button></div>
+ <div className="card-surface overflow-x-auto"><table className="w-full min-w-[750px] text-left text-sm"><thead className="border-b border-border text-xs uppercase text-muted-foreground"><tr>{['Lead','Source','Project','Status','Consent','Received'].map(x=><th className="px-4 py-3" key={x}>{x}</th>)}</tr></thead><tbody>{rows.map(l=><tr className="border-t border-border" key={l.lead_id}><td className="px-4 py-3"><Link className="font-semibold text-primary" to="/sales/leads/$id" params={{id:l.lead_id}}>{l.name}</Link><p className="text-xs text-muted-foreground">{l.lead_id.slice(0,8)}</p></td><td className="px-4 py-3">{l.source}</td><td className="px-4 py-3">{l.project_id}</td><td className="px-4 py-3">{l.status.replaceAll('_',' ')}</td><td className="px-4 py-3">{l.contact_consent?'Granted':'Not granted'}</td><td className="px-4 py-3">{l.created_at?new Date(l.created_at).toLocaleDateString('en-IN'):'—'}</td></tr>)}</tbody></table>{!rows.length&&<p className="p-8 text-center text-muted-foreground">No leads match these filters.</p>}</div></div>;
+}
